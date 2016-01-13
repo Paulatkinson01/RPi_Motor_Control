@@ -36,3 +36,13 @@ def right():
 	GPIO.output(24,GPIO.LOW)
 	GPIO.output(25,GPIO.HIGH)
 	print ("RIGHT")
+	
+right()
+	sleep.time(2)
+	
+stop()
+
+forward()
+	sleep.time(2)
+	
+stop()

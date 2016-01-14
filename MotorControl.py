@@ -37,12 +37,14 @@ def right():
 	GPIO.output(25,GPIO.HIGH)
 	print ("RIGHT")
 	
-right()
-	sleep.time(2)
+while True:
+	right()
+	time.sleep(2)
 	
-stop()
+	stop()
+	time.sleep(2)
 
-forward()
-	sleep.time(2)
+	forward()
+	time.sleep(2)
 	
-stop()
+	stop()
